@@ -48,3 +48,13 @@ crons = ["0 * * * *"]	#每小时执行；resetDaySendCount 仅在 UTC 0 点生�
 
 [build]
 command = "pnpm --prefix ../mail-vue install && pnpm --prefix ../mail-vue run build"
+
+
+[[d1_databases]]
+binding = "db"
+database_name = "cloud-mail"
+database_id = "bd41b805-93ac-4fd5-9c77-8bf292822775"
+
+[[kv_namespaces]]
+binding = "kv"
+id = "4a9505d62e554418b3814e282908afcc"
